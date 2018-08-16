@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Select</title>
+    <style>
+        #testBlock {
+            width: 100px;
+            height: 100px;
+            background: yellow;
+            margin-top: 50px;
+            transition: all 0.5s;
+        }
+    </style>
+</head>
+<body>
+
+    <select name="sel" id="sel">
+        <option value="1">Apple</option>
+        <option value="2">Orange</option>
+        <option value="3">Pineapple</option>
+        <option value="4">Banana</option>
+    </select>
+
+    <hr>
+
+    <input type="range" min="0" max="10" step="1" name="range" id="myRange">
+    <p>Range value <span id="rangeValue"></span></p>
+    <input type="text" name="text" id="myText">
+    <div id="testBlock"></div>
+
+    <script src="select.js"></script>
+    
+</body>
+</html>

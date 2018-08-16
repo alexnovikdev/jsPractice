@@ -1,0 +1,28 @@
+.tab {
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+}
+.whiteborder {
+    border: 1px solid #000;
+    border-bottom: 1px solid #fff;
+    border-radius: 5px 5px 0 0;
+}
+.tabContent {
+    max-width: 300px;
+    max-height: 60px;
+    padding: 10px;
+    border: 1px solid #000;
+    position: relative;
+    z-index: 1;
+    top: -1px;
+    overflow: auto;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}

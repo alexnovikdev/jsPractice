@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS generator</title>
+    <link rel="stylesheet" href="generator.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="option">
+            <p>Top left corner</p>
+            <input type="range" name="range" id="rtl" min="0" max="100" step="1">
+            <input type="text" name="text" id="ttl">
+        </div>
+        <div class="option">
+            <p>Top right corner</p>
+            <input type="range" name="range" id="rtr" min="0" max="100" step="1">
+            <input type="text" name="text" id="ttr">
+        </div>
+        <div class="option">
+            <p>Bottom right corner</p>
+            <input type="range" name="range" id="rbr" min="0" max="100" step="1">
+            <input type="text" name="text" id="tbr">
+        </div>
+        <div class="option">
+            <p>Bottom right corner</p>
+            <input type="range" name="range" id="rbl" min="0" max="100" step="1">
+            <input type="text" name="text" id="tbl">
+        </div>
+        <div class="result">
+            <div id="resDiv"></div>
+        </div>
+    </div>
+    
+
+    <script src="generator.js"></script>
+    
+</body>
+</html>

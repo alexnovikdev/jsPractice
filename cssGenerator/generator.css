@@ -1,0 +1,21 @@
+.wrapper {
+    max-width: 700px;
+    background: yellow;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.option {
+    display: flex;
+    justify-content: space-around;
+}
+.option p, .option input {
+    display: block;
+    width: 25%;
+}
+#resDiv {
+    width: 250px;
+    height: 250px;
+    background: rgb(247, 27, 247);
+    margin: 50px auto;
+    border: 3px solid black;
+}
