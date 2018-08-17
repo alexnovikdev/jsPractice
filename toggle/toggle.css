@@ -1,0 +1,37 @@
+#myDiv {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background: lawngreen;
+    margin-top: 20px;
+}
+.alert {
+    padding: 20px;
+    background: #f44336;
+    color: #fff;
+    opacity: 1;
+    transition: all 0.6s ease;
+    margin-bottom: 15px;
+}
+.success {
+    background: #4CAF50;
+}
+.info {
+    background: #2196F3;
+}
+.warning {
+    background: #ff9800;
+}
+.closebtn {
+    margin-left: 15px;
+    color: #fff;
+    font-weight: 700;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.closebtn:hover {
+    color: #000;
+}
